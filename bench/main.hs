@@ -10,7 +10,8 @@ import Attoparsec.ByteString qualified
 import Attoparsec.Text qualified
 import FlatParse qualified
 import Handwritten qualified
-import Happy qualified
+import Happy.Happy qualified as Happy
+
 import Megaparsec.ByteString qualified
 import Megaparsec.Text qualified
 import Parsec.ByteString qualified

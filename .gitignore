@@ -1,3 +1,5 @@
 /dist-newstyle/
 /baseline.csv
 /big-example.txt
+/.envrc.local
+/.direnv/

@@ -17,6 +17,8 @@ library
                         uu-parsinglib ^>= 2.9.2,
                         Earley ^>= 0.13,
                         ListLike ^>= 4.7,
+                        utf8-string,
+                        mtl,
       ghc-options:      -Wall
                         -Wextra
       exposed-modules:  Handwritten
@@ -28,8 +30,12 @@ library
                         Parsec.Text
                         Parsec.ByteString
                         FlatParse
-                        Alex
-                        Happy
+                        Happy.Alex
+                        Happy.Error
+                        Happy.Happy
+                        Happy.Monad
+                        Happy.Span
+                        Happy.Token
                         UUParsingLib
                         Earley
       hs-source-dirs:   src
